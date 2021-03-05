@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Lesson 1</h1>
-    <h2>Lesson 1</h2>
+    <h1>Lesson 3: Uses of Kotlin</h1>
     <p>
       Welcome to the ‘learn Kotlin’ application. <br />This is a training
       program consiting of ddifferent chapters,<br />

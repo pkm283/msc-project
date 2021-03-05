@@ -95,48 +95,30 @@ export default {
         },
         {
           question:
-            "What is the correct syntax for referring to an external script called 'xxx.js' ?",
+            "Who was part of the team that developed Kotlin",
           propositions: [
-            { props: '<script href="xxx.js">' },
-            { props: '<script name="xxx.js">' },
-            { props: '<script src="xxx.js">', correct: true },
-            { props: '<script id="xxx.js">' },
+            { props: 'Andrey Washington' },
+            { props: 'Andrey kotlin' },
+            { props: 'andrey Breslav', correct: true },
+            { props: 'Andrey Dimitrios' },
           ],
         },
         {
-          question: "How do you write 'Hello World' in an alert box ?",
+          question: "What company developed Kotlin",
           propositions: [
-            { props: 'msg("Hello World")' },
-            { props: 'alertBox("Hello World")' },
-            { props: 'alert("Hello World")', correct: true },
-            { props: 'msgBox("Hello World")' },
+            { props: 'JetMines' },
+            { props: 'JetPack' },
+            { props: 'JetBrains', correct: true },
+            { props: 'Google' },
           ],
         },
         {
-          question: "How to write an IF statement in JavaScript ?",
+          question: "What is a primary goal of Kotlin syntax?",
           propositions: [
-            { props: "if i = 5 then" },
-            { props: "if (i == 5)", correct: true },
-            { props: "if i == 5 then" },
-            { props: "if i = 5" },
-          ],
-        },
-        {
-          question: "How does a FOR loop start ?",
-          propositions: [
-            { props: "for i = 1 to 5" },
-            { props: "for (i <= 5; i++)" },
-            { props: "for (i = 0; i <= 5)" },
-            { props: "for (i = 0; i <= 5; i++)", correct: true },
-          ],
-        },
-        {
-          question: "How can you add a comment in a JavaScript ?",
-          propositions: [
-            { props: "'This is a comment" },
-            { props: "//This is a comment", correct: true },
-            { props: "<!--This is a comment-->" },
-            { props: "*This is a comment" },
+            { props: "Complexity" },
+            { props: "Readability", correct: true },
+            { props: "Fungability" },
+            { props: "Beauty" },
           ],
         },
       ],
