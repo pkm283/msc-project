@@ -57,15 +57,6 @@ const routes = [
       ),
   },
 
-  {
-    path: "/lesson03",
-    name: "Lesson03",
-    component: () =>
-      import(
-        /* webpackChunkName: "Lesson03" */ "../components/lessons/Lesson03.vue"
-      ),
-  },
-
   // routes to exercises
   {
     path: "/exercise01",
@@ -82,15 +73,6 @@ const routes = [
     component: () =>
       import(
         /* webpackChunkName: "Exercise02" */ "../components/exercises/Exercise02.vue"
-      ),
-  },
-
-  {
-    path: "/exercise03",
-    name: "Exercise03",
-    component: () =>
-      import(
-        /* webpackChunkName: "Exercise03" */ "../components/exercises/Exercise03.vue"
       ),
   },
 ];

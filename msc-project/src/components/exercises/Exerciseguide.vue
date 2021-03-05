@@ -8,9 +8,6 @@
       <li class="guide">
         <router-link to="/exercise02">Exercise 2</router-link>
       </li>
-      <li class="guide">
-        <router-link to="/exercise03">Exercise 3</router-link>
-      </li>
     </ul>
   </div>
 </template>
