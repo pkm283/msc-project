@@ -1,6 +1,6 @@
 <template>
   <div class="guide">
-    <h1>Exercise 1</h1>
+    <h1>Exercises</h1>
     <ul class="option-list">
       <li class="guide">
         <router-link to="/exercise01">Exercise 1</router-link>
